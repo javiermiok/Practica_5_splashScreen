@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="500.0" prefWidth="700.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <AnchorPane prefHeight="110.0" styleClass="fondo" BorderPane.alignment="CENTER">
+               <children>
+                  <Label alignment="CENTER" layoutX="54.0" layoutY="47.0" prefHeight="90.0" prefWidth="90.0" styleClass="logo" text="W" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0" />
+               </children>
+            </AnchorPane>
+         </top>
+         <center>
+            <Label text="Welcome to Wac Donaldo Services" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
